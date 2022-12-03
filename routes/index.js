@@ -6,7 +6,7 @@ const User = require("../models/user");
 
 //login page
 router.get('/', (req,res)=>{
-    res.render('login');
+    res.render('login.ejs');
 })
 //register page
 router.get('/register', (req,res)=>{

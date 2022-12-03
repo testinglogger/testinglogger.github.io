@@ -26,6 +26,7 @@ mongoose.connect('mongodb+srv://HSEdits:Gg1234512345@cluster0.vgjza.mongodb.net/
 
 //EJS
 app.set('view engine','ejs');
+app.set('view engine','html');
 app.use(expressEjsLayout);
 //BodyParser
 app.use(express.urlencoded({extended : false}));
